@@ -1,0 +1,22 @@
+{
+  "name": "HelloMyPod",
+  "version": "0.1.0",
+  "summary": "A short description of HelloMyPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuchang.5/HelloMyPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuchang.5": "liuchang.5@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/liuchang.5/HelloMyPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HelloMyPod/Classes/**/*"
+}
