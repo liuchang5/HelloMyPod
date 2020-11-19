@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HelloMyPod_Example' do
+  pod 'HelloMyPod', :path => '../'
+
+  target 'HelloMyPod_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
